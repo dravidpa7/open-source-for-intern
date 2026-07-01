@@ -40,14 +40,7 @@ def multiply_numbers(a, b):
 # 4. Divide Two Numbers
 # -------------------------------
 def divide_numbers(a, b):
-    # Task:
-    # Input: a and b are two numbers
-    # Process: Divide a by b
-    # Output: Return the division result
-    # Example: 10 / 5 = 2
-    # Note: Think about what happens if b is 0
-    pass
-
+    return a/b
 
 # -------------------------------
 # 5. Find Square of a Number
