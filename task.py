@@ -148,7 +148,9 @@ def create_greeting(name):
     # Process: Create a welcome message using the name
     # Output: Return greeting message
     # Example: "Dhanushree" -> "Hello Dhanushree, welcome!"
-    pass
+    out = "Hello" + name + ", Welcome"
+    return out
+    
 
 
 # --------------------------------
