@@ -43,15 +43,15 @@ def divide_numbers(a, b):
     return a/b
 
 # -------------------------------
-# 5. Find Square of a Number
-# -------------------------------
+# 5. Find Square of
+# -----------------------------
 def find_square(number):
     # Task:
     # Input: one number
     # Process: Multiply the number by itself
     # Output: Return the square value
     # Example: 4 -> 16
-    pass
+    return number * number
 
 
 # -------------------------------
