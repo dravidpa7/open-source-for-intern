@@ -122,14 +122,8 @@ def calculate_simple_interest(principal, rate, time):
 # 11. Calculate Age
 # -------------------------------
 def calculate_age(birth_year, current_year):
-    # Task:
-    # Input:
-    # birth_year = year of birth
-    # current_year = current year
-    # Process: Subtract birth year from current year
-    # Output: Return age
-    # Example: 2005 and 2026 -> 21
-    pass
+    age = current_year - birth_year
+    return age
 
 
 # -------------------------------

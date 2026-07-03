@@ -166,18 +166,7 @@ def convert_minutes_to_hours(minutes):
 # 11. Calculate BMI
 # -------------------------------
 def calculate_bmi(weight, height):
-    # Task:
-    # Input:
-    # weight = weight in kg
-    # height = height in meters
-    # Process:
-    # BMI formula = weight / height^2
-    # Output: Return BMI value
-    # Example:
-    # weight = 60
-    # height = 1.7
-    # Output: 20.76
-    pass
+    return weight/(height*height)
 
 
 # -------------------------------
