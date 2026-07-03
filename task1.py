@@ -137,14 +137,8 @@ def create_username(first_name, birth_year):
 # 9. Find Length of Name
 # -------------------------------
 def find_name_length(name):
-    # Task:
-    # Input: user's name
-    # Process:
-    # Count how many characters are in the name
-    # Output: Return length of the name
-    # Example:
-    # "Ravi" -> 4
-    pass
+   a=len(name)
+   return a
 
 
 # -------------------------------
