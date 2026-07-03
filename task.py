@@ -9,7 +9,8 @@ def add_numbers(a, b):
     # Process: Add both numbers
     # Output: Return the addition result
     # Example: 10 + 5 = 15
-    pass
+    return a+b
+    
 
 
 # -------------------------------
