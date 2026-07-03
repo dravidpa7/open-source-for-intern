@@ -169,16 +169,8 @@ def count_vowels(text):
 # 11. Reverse Text
 # -------------------------------
 def reverse_text(text):
-    # Task:
-    # Input: text is a word or sentence
-    # Process:
-    # Reverse the text
-    # Output: Return reversed text
-    # Example:
-    # text = "python"
-    # Output: "nohtyp"
-    pass
-
+    rev_str = text[::-1]
+    return rev_str
 
 # -------------------------------
 # 12. Check Login
