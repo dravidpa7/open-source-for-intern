@@ -37,34 +37,28 @@ def calculate_average_marks(mark1, mark2, mark3):
 # 3. Check Pass or Fail
 # -------------------------------
 def check_pass_fail(mark):
-    # Task:
-    # Input: one subject mark
-    # Process:
-    # If mark is 35 or above, student is Pass
-    # Otherwise student is Fail
-    # Output: Return "Pass" or "Fail"
-    # Example:
-    # 40 -> Pass
-    # 20 -> Fail
-    pass
-
+    if mark >= 35 :
+        return "pass"
+    else :
+        return "fail"
+ 
+    
 
 # -------------------------------
 # 4. Find Grade
 # -------------------------------
 def find_grade(average):
-    # Task:
-    # Input: average mark
-    # Process:
-    # 90 and above -> A Grade
-    # 75 to 89 -> B Grade
-    # 50 to 74 -> C Grade
-    # 35 to 49 -> D Grade
-    # Below 35 -> Fail
-    # Output: Return grade as text
-    # Example:
-    # average = 82 -> B Grade
-    pass
+  
+    if average >= 90:
+        return "A Grade"
+    elif average >= 75:
+        return "B Grade"
+    elif average >= 50:
+        return "C Grade"
+    elif average >= 35:
+        return "D Grade"
+    else:
+        return "Fail"
 
 
 # -------------------------------
