@@ -65,12 +65,8 @@ def find_square(number):
 # 6. Find Cube of a Number
 # -------------------------------
 def find_cube(number):
-    # Task:
-    # Input: one number
-    # Process: Multiply the number three times
-    # Output: Return the cube value
-    # Example: 3 -> 27
-    pass
+    cube = number * number * number
+    return cube
 
 
 # -------------------------------
@@ -90,12 +86,10 @@ def check_even_odd(number):
 # 8. Find Bigger Number
 # -------------------------------
 def find_bigger_number(a, b):
-    # Task:
-    # Input: a and b are two numbers
-    # Process: Compare both numbers
-    # Output: Return the bigger number
-    # Example: 10 and 20 -> 20
-    pass
+    if a>b:
+        return a
+    else:
+        return b
 
 
 # -------------------------------
