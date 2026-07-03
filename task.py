@@ -114,16 +114,8 @@ def celsius_to_fahrenheit(celsius):
 # 10. Calculate Simple Interest
 # -------------------------------
 def calculate_simple_interest(principal, rate, time):
-    # Task:
-    # Input:
-    # principal = amount of money
-    # rate = interest rate
-    # time = number of years
-    # Process: Calculate simple interest
-    # Output: Return simple interest value
-    # Example: principal=1000, rate=10, time=2 -> 200
-    pass
-
+    si=(principal*rate*time)/100
+    return si
 
 # -------------------------------
 # 11. Calculate Age

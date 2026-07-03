@@ -151,15 +151,8 @@ def find_name_length(name):
 # 10. Convert Minutes to Hours
 # -------------------------------
 def convert_minutes_to_hours(minutes):
-    # Task:
-    # Input: total minutes
-    # Process:
-    # Convert minutes into hours
-    # Output: Return hours
-    # Example:
-    # 120 minutes -> 2 hours
-    # 90 minutes -> 1.5 hours
-    pass
+    hours=minutes/60
+    return hours
 
 
 # -------------------------------
