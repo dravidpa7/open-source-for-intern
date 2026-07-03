@@ -102,7 +102,7 @@ def calculate_discount_price(price):
 # -------------------------------
 # 7. Check Voting Eligibility
 # -------------------------------
-def check_voting_elfind_name_leigibility(age):
+def check_voting_eligibility(age):
     # Task:
     # Input: person's age
     # Process:
