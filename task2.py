@@ -153,16 +153,13 @@ def count_failed_students(marks):
 # 10. Count Vowels in Name
 # -------------------------------
 def count_vowels(text):
-    # Task:
-    # Input: text is a word or sentence
-    # Process:
-    # Check each character
-    # Count vowels: a, e, i, o, u
-    # Output: Return vowel count
-    # Example:
-    # text = "apple"
-    # Output: 2
-    pass
+    count = 0 
+    vowels = "aeiouAEIOU"
+    for ch in text:
+            if ch in vowels:
+                count += 1
+
+    return count
 
 
 # -------------------------------
