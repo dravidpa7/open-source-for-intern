@@ -102,12 +102,8 @@ def find_bigger_number(a, b):
 # 9. Convert Celsius to Fahrenheit
 # -------------------------------
 def celsius_to_fahrenheit(celsius):
-    # Task:
-    # Input: temperature in Celsius
-    # Process: Convert Celsius to Fahrenheit
-    # Output: Return Fahrenheit value
-    # Example: 0 Celsius -> 32 Fahrenheit
-    pass
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
 
 
 # -------------------------------
