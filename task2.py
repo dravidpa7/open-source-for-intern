@@ -137,16 +137,14 @@ def count_passed_students(marks):
 # 9. Count Failed Students
 # -------------------------------
 def count_failed_students(marks):
-    # Task:
-    # Input: marks is a list of student marks
-    # Process:
-    # Check each mark
-    # If mark is below 35, count as fail
-    # Output: Return fail count
-    # Example:
-    # marks = [80, 20, 45, 30, 90]
-    # Output: 2
-    pass
+    fail_count = 0
+
+    for mark in marks:
+        if mark < 35:
+            fail_count += 1
+
+    return fail_count
+
 
 
 # -------------------------------
