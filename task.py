@@ -16,12 +16,7 @@ def add_numbers(a, b):
 # 2. Subtract Two Numbers
 # -------------------------------
 def subtract_numbers(a, b):
-    # Task:
-    # Input: a and b are two numbers
-    # Process: Subtract b from a
-    # Output: Return the subtraction result
-    # Example: 10 - 5 = 5
-    pass
+    return b-a
 
 
 # -------------------------------
